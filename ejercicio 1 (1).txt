@@ -1,0 +1,41 @@
+ejercicio 1 -----------------------
+
+let nombre = "luis"; //string
+let apellido ="diaz"
+let edad = 23; //number
+let esEstudiante = true; //boolean
+
+console.log("nombre : " , nombre);
+console.log("Edad : ", edad);
+console.log("Es estudiante : ",esEstudiante);
+
+ejercicio 2 ------------------------
+
+let a = 10;
+let b = 5;
+
+let suma = a+b;
+let resta = a-b;
+let multiplicacion = a*b;
+let division = a/b;
+
+console.log("suma: ", suma);
+console.log("resta: ", resta);
+console.log("multiplicacion: ", multiplicacion);
+console.log("division: ", division);
+ 
+ console.log("a es igual a b : ", a==b);
+ console.log("a es diferente de b : ", a!=b);
+ console.log("a es mayor a b : ", a>b);
+ console.log("a es menor a b : ", a<b);
+ 
+ejercicio 3 ------------------------
+
+let esMayordeEdad = true;
+let tieneLicencia = false;
+let puedeConducir = esMayordeEdad && tieneLicencia;
+ 
+console.log("Puede conducir? ", puedeConducir);
+
+let saludo = "Hola, "+nombre+" "+apellido+"!";
+ let saludoConTemplate = `Hola, mi nombre es ${nombre} y mi apellido ${apellido}!`
